@@ -1,0 +1,22 @@
+hashtag,platform,category,searchability_notes
+#foodpanda,All,Brand (always include),Core brand tag; appears across every region-specific Foodpanda post found in research. Always include.
+#foodpandaPH,Instagram/TikTok/X,Brand + Region,Philippines-specific; very high engagement region for Foodpanda content.
+#foodpandaSG,Instagram/LinkedIn/X,Brand + Region,Singapore-specific; used heavily in LinkedIn employer-branding posts.
+#foodpandaPK,Instagram/TikTok/X,Brand + Region,Pakistan-specific; matches this project's target market.
+#foodpandaTH,X/Twitter,Brand + Region,Thailand-specific regional account tag.
+#MakeLifeDelicious,Instagram/TikTok,Brand Campaign,Confirmed live campaign tagline/hashtag used in 2026 restaurant-partner and festive campaigns.
+#LifeAtfoodpanda,LinkedIn,Employer Branding,Used specifically for careers/culture posts; do not use on consumer promo posts.
+#CareerFair,LinkedIn,Employer Branding,Paired with #LifeAtfoodpanda on university recruiting posts.
+#fooddelivery,Instagram/TikTok,High-volume generic,One of the most-used general food-delivery hashtags across platforms; strong reach but high competition.
+#FoodDeliveryService,Instagram/TikTok,High-volume generic,Frequently paired with #fooddelivery in hashtag research tools.
+#orderonline,Instagram/TikTok,Mid-volume generic,Commonly paired with delivery-brand hashtags (seen alongside Foodpanda in Malaysia-region hashtag sets).
+#deliveryfood,Instagram/TikTok,Mid-volume generic,Consistently appears in "related hashtags" data for #fooddelivery and #delivery.
+#foodie,Instagram,High-volume generic,Extremely broad reach tag; useful as one of the 2-3 hashtag slots on Instagram (which caps effective reach around 3 tags).
+#instafood,Instagram,High-volume generic,Very high-volume general food tag; good for broad discovery.
+#FoodTok,TikTok,High-volume generic,TikTok's primary food-content discovery tag (millions of posts); pair with #fyp for algorithmic reach.
+#fyp,TikTok,Platform-generic (reach),Standard TikTok "for you page" discovery tag; near-universal on TikTok food content.
+#foodpandarider,TikTok,Niche/Community,Matches real rider/delivery-culture TikTok content theme found in research.
+#CravingsSolved,Instagram/Facebook,Brand Campaign (proposed),Consistent with brand's playful craving-focused tone; pairs well with promo captions.
+#OrderNow,Instagram/Facebook/X,Brand Campaign (proposed),Direct CTA-style hashtag matching Foodpanda's common CTA list.
+#QuickCommerce,LinkedIn/Facebook,Corporate/Industry,Matches Foodpanda's official specialties listing (Q-commerce) on LinkedIn; appropriate for corporate posts about Pandamart.
+#Pandamart,All,Product-specific,Use only for Pandamart (quick-commerce/grocery) posts, not restaurant food delivery posts.

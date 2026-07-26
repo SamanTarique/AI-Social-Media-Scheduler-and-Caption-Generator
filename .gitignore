@@ -1,0 +1,22 @@
+ Environment variables (NEVER commit this - contains API keys)
+.env
+ 
+# Virtual environments (covers both common folder names)
+venv/
+env/
+.venv/
+ENV/
+ 
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+ 
+# Generated / runtime data
+output/
+faiss_index/
+ 
+# OS / editor junk
+.DS_Store
+.vscode/
+*.log
