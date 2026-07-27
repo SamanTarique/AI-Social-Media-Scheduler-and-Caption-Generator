@@ -1,15 +1,11 @@
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, jsonify, send_file, send_from_directory
 from flask_cors import CORS
 import os
-
-from Gemni_Services import generate_caption
-from Ai_Scheduler_Caption_Generator import build_weekly_calendar, save_calendar
-
-
 import threading
 import uuid
 
-
+from Gemni_Services import generate_caption
+from AI_S_M_Scheduler import build_weekly_calendar, save_calendar
 
 app = Flask(__name__)
 CORS(app)
@@ -17,9 +13,11 @@ CORS(app)
 CALENDAR_PATH = "output/foodpanda_content_calendar.csv"
 
 
+FRONTEND_DIST = os.path.join(os.path.dirname(os.path.abspath(__file__)), "frontend", "dist")
+
+
 jobs = {}
 jobs_lock = threading.Lock()
-
 
 
 
@@ -35,8 +33,8 @@ def server_error(_e):
 
 
 
-@app.route("/")
-def home():
+@app.route("/api/status")
+def health_check():
     return jsonify({"message": "Foodpanda AI Backend Running"})
 
 
@@ -62,6 +60,7 @@ def generate_caption_route():
     )
 
     return jsonify({"result": result})
+
 
 
 
@@ -111,6 +110,7 @@ def weekly_calendar_status(job_id):
 
 
 
+
 @app.route("/download-calendar")
 def download_calendar_route():
     if not os.path.exists(CALENDAR_PATH):
@@ -124,5 +124,17 @@ def download_calendar_route():
 
 
 
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve_frontend(path):
+    full_path = os.path.join(FRONTEND_DIST, path) if path else FRONTEND_DIST
+    if path and os.path.exists(full_path) and os.path.isfile(full_path):
+        return send_from_directory(FRONTEND_DIST, path)
+    # Fallback to index.html for client-side routing (React Router etc.)
+    return send_from_directory(FRONTEND_DIST, "index.html")
+
+
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
