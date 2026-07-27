@@ -5,7 +5,7 @@ import threading
 import uuid
 
 from Gemni_Services import generate_caption
-from AI_S_M_Scheduler import build_weekly_calendar, save_calendar
+from Ai_Scheduler_Caption_Generator import build_weekly_calendar, save_calendar
 
 app = Flask(__name__)
 CORS(app)
