@@ -38,7 +38,7 @@ The system combines Large Language Models with a local knowledge base to ensure 
 
 ---
 
-# 🏗 System Workflow
+#  System Workflow
 
 ```text
 Knowledge Base
@@ -94,7 +94,7 @@ AI-Social-Media-Scheduler-and-Caption-Generator/
 
 ---
 
-# 🚀 Getting Started
+#  Getting Started
 
 ## Prerequisites
 
@@ -207,7 +207,7 @@ Platforms limited to **512 MB RAM** may terminate the application with an **Out 
 
 ---
 
-# 📱 Alternative Streamlit Version
+#  Alternative Streamlit Version
 
 A separate **Streamlit implementation** of this project is also available in another branch of this repository.
 
@@ -279,7 +279,7 @@ Contributions, suggestions, and improvements are welcome.
 
 ---
 
-# 📄 License
+#  License
 
 This project is licensed under the MIT License.
 
