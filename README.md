@@ -207,33 +207,6 @@ Platforms limited to **512 MB RAM** may terminate the application with an **Out 
 
 ---
 
-#  Alternative Streamlit Version
-
-A separate **Streamlit implementation** of this project is also available in another branch of this repository.
-
-If you prefer building or deploying the project with **Streamlit** instead of **Flask**, you can use that version.
-
-### Switch to the Streamlit branch
-
-```bash
-git checkout streamlit
-```
-
-### Run the Streamlit application
-
-```bash
-streamlit run streamlit_app.py
-```
-
-### Procfile for Streamlit
-
-```procfile
-web: streamlit run streamlit_app.py --server.port=$PORT --server.address=0.0.0.0
-```
-
-The Streamlit version is intended for users who prefer a lightweight interface while keeping the same AI generation workflow.
-
----
 
 #  Example Output
 
