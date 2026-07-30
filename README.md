@@ -225,7 +225,11 @@ The application generates:
 
 A demonstration video showing the complete workflow of the project is available.
 
-> **Demo Video:** *(Add your Google Drive or YouTube link here.)*
+> **Demo Video:** 
+
+https://github.com/user-attachments/assets/b7ad1cb0-187c-4684-9f40-56909aa2a871
+
+
 
 ---
 
