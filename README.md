@@ -229,6 +229,9 @@ A demonstration video showing the complete workflow of the project is available.
 
 https://github.com/user-attachments/assets/b7ad1cb0-187c-4684-9f40-56909aa2a871
 
+**Live Demo:** https://ai-social-media-scheduler-and-caption-generator--samantarique02.replit.app
+
+> **Availability Notice:** This demo is not permanently live and is only available for 26 days.
 
 
 ---
